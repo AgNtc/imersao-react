@@ -57,9 +57,8 @@ export default function PaginaInicial() {
             }}
             onSubmit= {function handler(e){
               e.preventDefault();
-              roteamento.push('/chat');
+              roteamento.push(`/chat?usuario=${usuario}`);
             }}
-            
           >
             <Titulo tag="h2">Seja Bem Vindo !!</Titulo>
             <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
