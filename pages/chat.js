@@ -1,5 +1,5 @@
 import { Box, Text, TextField, Image, Button } from '@skynexui/components';
-import { ButtonSendSticker } from '../src/components/buttonSendSticker';
+import { ButtonSendSticker } from '../src/components/ButtonSendSticker';
 
 import { IconButton } from 'material-ui';
 import React from 'react';
